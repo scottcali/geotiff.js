@@ -2,7 +2,8 @@
  * GeoTiff Reader 2025.10.09 Version 2.1.4-beta.0
  *
  */
- 
+console.log("Loading GeoTiff Reader 2025.10.09 Version 2.1.4-beta.0"); 
+
 /** @module geotiff */
 import GeoTIFFImage from './geotiffimage.js';
 import DataView64 from './dataview64.js';
