@@ -13,6 +13,9 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  globals: {
+    FinalizationRegistry: true,
+  },
   rules: {
     'no-underscore-dangle': 0,
     'class-methods-use-this': 0,
@@ -39,7 +42,8 @@ module.exports = {
     'max-classes-per-file': 0,
     'max-len': ['error', { code: 130 }],
     'import/prefer-default-export': 0,
-    'import/extensions': ['error', 'always'],
+    'import/extensions': 0,
+    'import/no-unresolved': 0,
     'prefer-default-export': 0,
     'func-names': 0,
     'arrow-body-style': 0,
