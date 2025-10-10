@@ -2,7 +2,7 @@
   "name": "geotiff",
   "version": "2.1.4-beta.0",
   "description": "GeoTIFF image decoding in JavaScript",
-  "repository": "https://github.com/geotiffjs/geotiff.js",
+  "repository": "https://github.com/scottcali/geotiff.js",
   "keywords": [
     "TIFF",
     "GeoTIFF",
@@ -103,6 +103,7 @@
     "chai-as-promised": "^8.0.1",
     "chokidar-cli": "^3.0.0",
     "detect-node": "^2.0.4",
+    "esbuild": "0.25.10",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.2",

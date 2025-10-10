@@ -1,5 +1,5 @@
 # geotiff.js
-[![Node.js CI](https://github.com/geotiffjs/geotiff.js/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/geotiffjs/geotiff.js/actions/workflows/ci.yml) [![npm version](https://badge.fury.io/js/geotiff.svg)](https://badge.fury.io/js/geotiff) [![Gitter chat](https://badges.gitter.im/geotiffjs/geotiff.js.png)](https://gitter.im/geotiffjs/Lobby)
+[![Node.js CI](https://github.com/scottcali//geotiff.js/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/scottcali//geotiff.js/actions/workflows/ci.yml) [![npm version](https://badge.fury.io/js/geotiff.svg)](https://badge.fury.io/js/geotiff) [![Gitter chat](https://badges.gitter.im/scottcali//geotiff.js.png)](https://gitter.im/geotiffjs/Lobby)
 
 Read (geospatial) metadata and raw array data from a wide variety of different
 (Geo)TIFF files types.
@@ -561,7 +561,7 @@ a reasonable support, the following is implemented:
 geotiff.js has some n-bit support which means that it supports unsigned integer
 data reading with each element using a non-multiple of 8 bit depth. This only
 works with band interleaved images (see
-[this related issue](https://github.com/geotiffjs/geotiff.js/issues/202)).
+[this related issue](https://github.com/scottcali//geotiff.js/issues/202)).
 
 ## Planned stuff:
 
@@ -570,7 +570,7 @@ works with band interleaved images (see
 
 ## Known Issues
 
-The open issues can be found on [GitHub](https://github.com/geotiffjs/geotiff.js/issues).
+The open issues can be found on [GitHub](https://github.com/scottcali//geotiff.js/issues).
 
 ## Contribution
 
