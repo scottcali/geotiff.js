@@ -783,9 +783,6 @@ export async function fromFile(path, options = {}, signal) {
 
 /**
  * Construct a GeoTIFF from a File or Blob.
- * [Blob]{@link https://developer.mozilla.org/en-US/docs/Web/API/Blob} or
- * [File]{@link https://developer.mozilla.org/en-US/docs/Web/API/File}
- * object.
  * @param {Blob} blob The File or Blob to read from.
  * @param {object} [options] Additional options.
  * @param {boolean} [options.cache=true] Whether to cache images and ICC profiles.

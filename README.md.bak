@@ -363,7 +363,7 @@ YCbCr, and CIE L*a*b.
 
 geotiff.js provides a method to automatically convert these images to RGB:
 `readRGB()`. This method is very similar to the `readRasters` method with
-the distinction that the `interleave` option now defaults to `true` and the
+distinction that the `interleave` option is now always `true` and the
 `samples` are automatically chosen.
 
 ```javascript
@@ -561,7 +561,7 @@ a reasonable support, the following is implemented:
 geotiff.js has some n-bit support which means that it supports unsigned integer
 data reading with each element using a non-multiple of 8 bit depth. This only
 works with band interleaved images (see
-[this related issue](https://github.com/geotiffjs/geotiff.js/issues/202)).
+[this related issue](https://github.com/scottcali//geotiff.js/issues/202)).
 
 ## Planned stuff:
 
@@ -570,7 +570,7 @@ works with band interleaved images (see
 
 ## Known Issues
 
-The open issues can be found on [GitHub](https://github.com/geotiffjs/geotiff.js/issues).
+The open issues can be found on [GitHub](https://github.com/scottcali//geotiff.js/issues).
 
 ## Contribution
 
