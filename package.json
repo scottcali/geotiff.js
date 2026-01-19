@@ -1,8 +1,11 @@
 {
   "name": "geotiff",
-  "version": "2.1.4-beta.1",
+  "version": "3.0.0-beta.3",
   "description": "GeoTIFF image decoding in JavaScript",
-  "repository": "https://github.com/scottcali/geotiff.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottcali/geotiff.js.git"
+  },
   "keywords": [
     "TIFF",
     "GeoTIFF",
@@ -89,7 +92,7 @@
     "quick-lru": "^6.1.1",
     "web-worker": "^1.5.0",
     "xml-utils": "^1.10.2",
-    "zstddec": "^0.2.0-alpha.3"
+    "zstddec": "^0.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
@@ -128,9 +131,9 @@
   },
   "scripts": {
     "prebuild": "npm run build:clean",
-    "build": "npm run build:module && run-p build:browser build:node build:types",
+    "build": "npm run build:module && run-p build:browser build:node",
     "build:clean": "shx rm -rf dist-node/ dist-browser/ dist-module/",
-    "build:module": "shx mkdir -p dist-module && shx cp -rf src/* dist-module/ && rollup -c rollup.worker.config.js",
+    "build:module": "tsc --project tsconfig.dev.json && rollup -c rollup.worker.config.js",
     "build:browser": "rollup -c rollup.config.js",
     "build:node": "tsc --project tsconfig.build.json && shx echo \"{\\\"type\\\":\\\"commonjs\\\"}\" > dist-node/package.json",
     "build:types": "tsc --outdir dist-module/",
